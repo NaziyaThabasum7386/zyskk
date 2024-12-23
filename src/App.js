@@ -1,9 +1,12 @@
-import './App.css';
-import Header from '../src/component/Header/Header';
+import React from "react";
+import Hero from "../src/component/Hero/Hero";
+import Analytics from "../src/component/Analytics/Analytics";
+
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <div>
+      <Hero />
+      <Analytics />
     </div>
   );
 }
